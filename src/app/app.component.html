@@ -1,0 +1,11 @@
+
+<div style="text-align: center; width: 800px; height: auto;" >
+<div>
+  <h1>Add Employee</h1>
+  <app-employee-add (employeeAdded)="getEmployees($event)"></app-employee-add>
+  <br>
+  <br>
+  <h1>View Employee</h1>
+  <app-employee-view [employees]="employees"></app-employee-view>
+</div>
+</div>
